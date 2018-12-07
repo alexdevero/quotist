@@ -1,0 +1,53 @@
+{
+  "name": "quotist",
+  "version": "0.0.1",
+  "description": "Get a random quote right inside your CLI.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexdevero/quotist.git"
+  },
+  "homepage": "https://github.com/alexdevero/quotist#readme",
+  "bugs": {
+    "url": "https://github.com/alexdevero/quotist/issues"
+  },
+  "author": {
+    "name": "Alex Devero",
+    "url": "https://alexdevero.com"
+  },
+  "keywords": [
+    "cli",
+    "quote",
+    "quotes"
+  ],
+  "files": [
+    "dist",
+    "cli.js",
+    "index.js",
+    "quotes.json"
+  ],
+  "engines": {
+    "node": ">=10.0",
+    "npm": ">=6.0",
+    "yarn": ">=1.11.0"
+  },
+  "bin": "cli.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint *.js && tape test.js | tap-spec",
+    "build": "rimraf dist && webpack -p"
+  },
+  "dependencies": {
+    "chalk": "2.4.1",
+    "meow": "5.0.0",
+    "unique-random-array": "1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "5.9.0",
+    "rimraf": "2.6.2",
+    "tap-spec": "5.0.0",
+    "tape": "4.9.1",
+    "webpack": "4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
