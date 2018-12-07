@@ -6,9 +6,9 @@ const chalk = require('chalk')
 const getQuotes = require('./')
 
 const hdr = chalk.bold
-const opt = chalk.yellow
+const opt = chalk.magentaBright
 const dmo = chalk.green
-const cmd = chalk.magenta.bold.underline
+const cmd = chalk.blue
 
 const help = `
   ${hdr('Usage:')}
