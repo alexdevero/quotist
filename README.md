@@ -1,11 +1,19 @@
-<!-- ![quotist logo](./media/predator.png) -->
+<!-- ![quotist logo](./docs/quotist-logo.png) -->
 
 ## Quotist
 
 Get a random quote right inside your CLI.
 
-[![version](https://img.shields.io/npm/v/quotist.svg?style=flat-square)](http://npm.im/quotist)
-[![mit license](https://img.shields.io/npm/l/quotist.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+<p align="center">
+  <a href="https://david-dm.org/alexdevero/quotist"><img alt="Dependency Status" src="https://david-dm.org/alexdevero/quotist.svg?style=flat"></a>
+  <a href="https://david-dm.org/alexdevero/quotist?type=dev"><img alt="devDependency Status" src="https://david-dm.org/alexdevero/quotist/dev-status.svg?style=flat"></a>
+  <a href="http://opensource.org/licenses/MIT"><img alt="MIT License" src="https://badgen.net/badge/license/MIT/blue"></a>
+</p>
+
+<p align="center">
+  <a href="https://alexdevero.com"><img alt="Built by DEVERO" src="https://badgen.net/badge/Built%20by/DEVERO/d30320"></a>
+  <a href="https://github.com/alexdevero/quotist/releases"><img alt="Current release" src="https://badgen.net/github/release/alexdevero/quotist"></a>
+</p>
 
 #### Table of contents
 
@@ -21,7 +29,7 @@ Get a random quote right inside your CLI.
 
 ### Demo
 
-[Quotist](https://dtjv.github.io/quotist)
+[Quotist](https://alexdevero.github.io/quotist)
 
 ### Install
 
