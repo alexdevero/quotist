@@ -69,7 +69,7 @@ $ npm install --global quotist
 ```
 $ quotist --help
 
-  Get quotes from the movie Predator(1987)
+  Get a random quote right inside your CLI.
 
   Usage:
     quotist [<options>]
@@ -91,8 +91,9 @@ $ quotist --help
 <html>
   <head>
     <!-- replace [version] with actual version (i.e. 1.1.15) -->
-    <script src="https://unpkg.com/quotist@[version]/dist/predator.quotes.umd.min.js"></script>
+    <script src="https://unpkg.com/quotist@[version]/dist/quotist.umd.min.js"></script>
   </head>
+
   <body>
     <script>
       // the umd file exposes the global `quotist`.
