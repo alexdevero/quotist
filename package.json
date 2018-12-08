@@ -1,6 +1,6 @@
 {
   "name": "quotist",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get a random quote right inside your CLI.",
   "license": "MIT",
   "repository": {
