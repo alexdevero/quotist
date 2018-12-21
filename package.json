@@ -43,11 +43,11 @@
     "unique-random-array": "1.0.1"
   },
   "devDependencies": {
-    "eslint": "5.9.0",
+    "eslint": "5.10.0",
     "rimraf": "2.6.2",
     "tap-spec": "5.0.0",
     "tape": "4.9.1",
-    "webpack": "4.27.1",
+    "webpack": "4.28.1",
     "webpack-cli": "^3.1.2"
   }
 }
